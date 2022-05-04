@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body> 
+    <header>
+        <nav>
+          <a class="logo" href="/"><img src="Imagens/logo.png" alt=""></a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+  
+          <form class="busca">
+             <img src="Imagens/icone_bsca.svg" alt="">
+              <input type="text">
+          </form>
+  
+          <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="modelos.html">Modelos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+        <div class="linha-topo">
+            <h1>Contato</h1>
+        </div>
+
+        <section >
+            <div class="formulario">
+                <div class="titu-contato">
+                    <h3>Fale Conosco</h3>
+                </div>
+            <form
+            action="https://formsubmit.co/lionncar4@gmail.com"
+            method="POST"
+            class="form"
+            >
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" required></textarea>
+            <input type="hidden" name="_captcha" value="true" />
+            <input
+                type="hidden"
+                name="_next"
+                value="http://127.0.0.1:5500/Lion_car/contato.html"
+                  
+            />
+            <button type="submit">Enviar</button>
+            
+            </form>
+            
+        </div>
+        </section>
+
+        <div>
+            
+            <div class="tabela">
+                <div class="bloco-esquerdo">
+                    <div class="informações">
+                        <span class="text-t">Informações de Contato</span>
+                        <br>
+                        <span class="icones"><img src="Imagens/local.png" alt=""></span>
+                        <span class="text">Junco - Picos, PI</span>
+                        <br>
+                        <span class="icones"> <img src="Imagens/whatsapp.png" alt=""></span>
+                        <span class="text">(89)9 9999-9999</span>
+                        <br>
+                        <span class="icones"> <img src="Imagens/email.png" alt=""></span>
+                        <a class="text" href="#">lionncar4@gmail.com</a>
+                          
+                    </div>       
+                    <div class="midias">
+                        <a target="_blanck" href="#"> 
+                            <span class="icon"> <img src="Imagens/facebook.png" alt=""> </span>
+                            <span class="icon" href="#"> <img src="Imagens/instagram.png" alt=""> </span>
+                            <span> <img src="Imagens/youtube.png" alt=""> </span>
+                        </a>
+                    </div>   
+                </div>
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8113542.5419714!2d-47.699423358899914!3d-6.80742840938094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x782e57c7080b28f%3A0x5ae7715404f694a5!2zUGlhdcOt!5e0!3m2!1spt-BR!2sbr!4v1650778954307!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>   
+            </div>
+           
+        </div>
+            
+		
+    
+        <div class="copyright">
+        <img  class="img-leon" src="Imagens/icone.png" alt="">
+        <p class="text-copyright"> Copyright&copy;<script>document.write(new Date().getFullYear());</script> - Lion Car.</p>
+    </div>
+    </main>
+    <script src="menu.js"></script>
+</body>
+</html>
